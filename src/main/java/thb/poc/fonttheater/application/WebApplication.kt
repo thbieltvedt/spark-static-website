@@ -4,6 +4,8 @@ import spark.Request
 import spark.Response
 import spark.Spark.get
 import spark.SparkBase.externalStaticFileLocation
+import kotlin.collections.first
+import kotlin.collections.isEmpty
 
 public object WebApplication {
 
